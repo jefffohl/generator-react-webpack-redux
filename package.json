@@ -1,7 +1,7 @@
 {
-  "name": "generator-react-webpack-redux",
-  "version": "0.7.0",
-  "description": "Yeoman generator for ReactJS and Flux (redux) via Webpack",
+  "name": "generator-react-webpack-redux-h2o",
+  "version": "0.1.0",
+  "description": "Yeoman generator for ReactJS and Flux (redux) via Webpack for H2O Visualization Team. Forked from generator-react-webpack-redux, by Chris Landa",
   "keywords": [
     "yeoman-generator",
     "reactjs",
@@ -9,10 +9,12 @@
     "redux",
     "flux",
     "scaffold",
-    "front-end"
+    "front-end",
+    "h2o",
+    "data-visualization"
   ],
-  "homepage": "https://github.com/stylesuxx/generator-react-webpack-redux",
-  "bugs": "https://github.com/stylesuxx/generator-react-webpack-redux/issues",
+  "homepage": "https://github.com/jefffohl/generator-react-webpack-redux-h2o",
+  "bugs": "https://github.com/jefffohl/generator-react-webpack-redux-h2o/issues",
   "author": {
     "name": "Chris Landa",
     "email": "stylesuxx@gmail.com"
@@ -22,12 +24,17 @@
       "name": "Christian Schilling",
       "email": "cs@weblogixx.de",
       "url": "https://github.com/weblogixx"
+    },
+    {
+      "name": "Jeff Fohl",
+      "email": "jeff@fohl.com",
+      "url": "https://github.com/jefffohl"
     }
   ],
   "main": "generators/action/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stylesuxx/generator-react-webpack-redux.git"
+    "url": "git://github.com/stylesuxx/generator-react-webpack-redux-h2o.git"
   },
   "scripts": {
     "test": "mocha",
